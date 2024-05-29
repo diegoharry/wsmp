@@ -1,0 +1,129 @@
+<html lang="es">
+<head>
+<title>WSMP</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=640px"/>
+<link rel="icon" type="x-icon" href="favicon.png">
+</head>
+<style>
+@font-face {
+  font-family: 'Minecraftia';
+  src: url(Minecraftia-Regular.ttf);
+}
+
+body {
+ background-color: #fff;
+ color: #000;
+ font-family: 'Verdana', sans-serif;
+ font-size: 9pt;
+ padding: 5px;
+ margin: 5px;
+}
+
+a {
+ color: #2FAB21;
+ text-decoration: underline;
+}
+
+a:hover,a:active {
+ font-weight: bold;
+}
+
+.titulo {
+ background-color: #DFDFDF;
+ padding: 6px;
+ font-weight: bold;
+ width: 100%;
+ max-width: 628px;
+ text-align: center;
+ margin: auto;
+}
+
+.contenedor {
+ width: 100%;
+ max-width: 640px;
+ height: auto;
+ margin: auto;
+}
+
+.separador {
+ border-color: transparent;
+ margin: 0px;
+}
+
+.parrafo {
+ white-space: pre-wrap;
+}
+
+.dark-mode {
+ background-color: #0F0F0F;
+ color: #fff;
+ .titulo {
+ background-color: #4E4E4E;
+ }
+ a {
+ color: #38D726;
+ }
+ .bordertext {
+ border: 1px solid #fff;
+ }
+}
+
+.bordertext {
+ padding: 2px;
+ border: 1px solid #000;
+}
+
+.home {
+ height: 72px;
+ width: 210px;
+ font-family: 'Minecraftia';
+ font-size: 18pt;
+ color: #87CEEB;
+ float: left;
+ user-select: none;
+}
+
+.home::selection {
+  background: none;
+}
+.home::-moz-selection {
+  background: none;
+}
+</style>
+<body>
+<div class="contenedor">
+<center><button onclick="myFunction()" style="cursor: pointer; border: none; color: #87CEEB; background-color: transparent; font-size: 14pt;"><i class="fa-solid fa-moon"></i> / <i class="fa-solid fa-sun"></i></button></center>
+<br><center><div class="home"><img src="logop.png" draggable="false"> WSMP</div></center><br>
+<center><span class="parrafo">WSenD Survival Multiplayer Public
+<a href="https://discord.com/invite/9K33xFxtdp" target="_blank" style="text-decoration: none;">Discord <i class="fa-brands fa-discord"></i></a> - <a href="https://www.twitch.tv/wsend90" target="_blank" style="text-decoration: none;">Twitch <i class="fa-brands fa-twitch"></i></a></span></center><br><br>
+<div class="titulo" id="inicio"><span>Inicio</span></div><br>
+<center><marquee><span class="parrafo">Un servidor de Minecraft semi-vanilla con lore del meme <a href="https://es.wikipedia.org/wiki/Pepe_the_Frog" target="_blank">Pepe The Frog.</a></span></marquee><br><br></center>
+<div class="titulo" id="ip"><span>IP</span></div><br>
+<span class="parrafo">IP Java: 147.185.221.18:1170
+IP Bedrock: 147.185.221.18
+Puerto: 1211</span><br><br>
+<div class="titulo" id="lore"><span>Lore (by Diego250x)</span></div><br>
+<span class="parrafo"><b>Cronologías:</b>
+<u>Episodio 1:</u> Año 0 - 5
+<u>Episodio 2:</u> Año 5 - 15
+<u>Episodio 3:</u> Año 15 - 30
+<u>Episodio 4:</u> Año 30 - 35</span><br><br>
+<span class="parrafo" id="Episodio 1"><b>Episodio 1:</b>
+Todo comenzó en el universo 72 este era vació y aburrido su origen fue una partición del universo 52 por un duelo que tuvo el dios Kesius (rey del universo 72) y el dios Albert (rey del universo 52), el sueño de Kesius siempre fue tener su propio universo para manipularlo a su gusto pero los dioses del Olimpo nunca le dieron uno no fue hasta que un día hablando Albert decidió retarlo a un duelo a muerte y si Albert ganaba Kesius tenia que humillarse frente a la diosa mas guapa y si Kesius ganaba Albert le daba la mitad de su universo, tuvieron un duelo emocionante pero al final Kesius termino ganando como Albert había dicho tuvo que darle la mitad del universo 52 así naciendo el universo 72.
+
+<b>Año 0:</b>
+Kesius dio una forma cuadrada al universo y creo una civilizacion no sabia que entidades crear</span>
+<br><br>
+<span class="bordertext" id="escribiendo">Estoy escribiendo el resto :p</span><br><br>
+<center><span>Con mucho <i class="fa-solid fa-heart"></i> de Diego250x</span></center>
+</div>
+<script src="https://kit.fontawesome.com/08cebf08c7.js" crossorigin="anonymous"></script>
+<script>
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+</script>
+</body>
+</html>
